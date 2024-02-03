@@ -14,8 +14,8 @@ export default function LikeCounter(){
     <>
     <div>
     <p>{state}</p>
-    <button onClick={()=>Store.dispatch({type: 'Increment'})}>+</button>
-    <button onClick={()=>Store.dispatch({type: 'Decrement'})}>-</button>
+    <button onClick={()=>Store.dispatch({type: 'Increment'})}>Like</button>
+    <button onClick={()=>Store.dispatch({type: 'Decrement'})}>Unlike</button>
     </div>
     </>
   )
